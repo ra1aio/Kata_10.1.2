@@ -8,4 +8,8 @@ public class SearchResultPage {
     @Description("Список результатов поиска")
     public static final By searchResultList =
             By.xpath("//div[contains(@class, 'product-tile qa-product-tile __eadf2')]");
+
+    @Description("Результат поиска")
+    public static final By searchResult =
+            By.xpath("//img[@class='img-responsive product-tile-image img-responsive']");
 }

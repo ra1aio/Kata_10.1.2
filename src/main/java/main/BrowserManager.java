@@ -12,4 +12,6 @@ public class BrowserManager extends BrowserManagerBase {
     public final AccountPageSteps accountPageSteps = new AccountPageSteps();
     public final SingInSideBarSteps singInSideBarSteps = new SingInSideBarSteps();
     public final LoginSideBarSteps loginSideBarSteps = new LoginSideBarSteps();
+    public final ProductPageSteps productPageSteps = new ProductPageSteps();
+    public final GalleryPageSteps galleryPageSteps = new GalleryPageSteps();
 }

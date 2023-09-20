@@ -15,4 +15,12 @@ public class HomePage {
     @Description(" нопка открыти€ формы аккаунта")
     public static final By accountButton =
             By.xpath("//a[contains(@class, 'qa-show-sidetray-account')]");
+
+    @Description("Ѕлок с кнопкой входа в галерею")
+    public static final By blockWithButtonToEnterTheGallery =
+            By.id("olapic_specific_widget");
+
+    @Description(" нопка входа в галерею")
+    public static final By toEnterTheGalleryButton =
+            By.xpath("//a[@class='k olapic-k msg-link-to']");
 }
