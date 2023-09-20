@@ -1,10 +1,10 @@
-package main.pageObjectModel.Steps;
+package main.pageObject.steps;
 
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selenide.$;
-import static main.pageObjectModel.Pages.LoginSideBar.loginAccountText;
+import static main.pageObject.pages.LoginSideBar.loginAccountText;
 
 public class LoginSideBarSteps {
 

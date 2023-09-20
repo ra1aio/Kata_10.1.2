@@ -1,7 +1,7 @@
 package main;
 
 import com.codeborne.selenide.Configuration;
-import main.pageObjectModel.BrowserSteps;
+import main.pageObject.BrowserSteps;
 
 public class BrowserManagerBase {
 

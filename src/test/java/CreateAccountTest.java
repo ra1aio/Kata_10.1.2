@@ -3,8 +3,6 @@ import main.utils.EmailGenerator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.sleep;
-
 public class CreateAccountTest extends BaseTest{
 
     @Test
@@ -12,6 +10,7 @@ public class CreateAccountTest extends BaseTest{
     @DisplayName("Регистрация нового аккаунта")
     void createNewAccount() {
         String firstName = "Tom";
+
         browserManager.homePage.acceptCookies();
         browserManager.homePage.clickAccountButton();
         browserManager.accountSideBarSteps.clickCreateAccountButton();
@@ -27,7 +26,5 @@ public class CreateAccountTest extends BaseTest{
         browserManager.createAccountSteps.createAccountButton();
         // Далее тест падает, потому что на предыдущем шаге не нажимается кнопка "Create account"
         browserManager.accountPageSteps.verifyAccountName(firstName);
-        sleep(10000);
-
     }
 }

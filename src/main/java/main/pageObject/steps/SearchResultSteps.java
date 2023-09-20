@@ -1,10 +1,10 @@
-package main.pageObjectModel.Steps;
+package main.pageObject.steps;
 
 import com.codeborne.selenide.CollectionCondition;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selenide.$$;
-import static main.pageObjectModel.Pages.SearchResultPage.searchResultList;
+import static main.pageObject.pages.SearchResultPage.searchResultList;
 
 public class SearchResultSteps {
 

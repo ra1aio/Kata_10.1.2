@@ -1,4 +1,4 @@
-package main.pageObjectModel.Steps;
+package main.pageObject.steps;
 
 import io.qameta.allure.Step;
 
@@ -6,7 +6,7 @@ import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
-import static main.pageObjectModel.Pages.HomePage.*;
+import static main.pageObject.pages.HomePage.*;
 
 public class HomePageSteps {
 

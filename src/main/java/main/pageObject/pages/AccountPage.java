@@ -1,4 +1,4 @@
-package main.pageObjectModel.Pages;
+package main.pageObject.pages;
 
 import jdk.jfr.Description;
 import org.openqa.selenium.By;

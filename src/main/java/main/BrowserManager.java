@@ -1,6 +1,6 @@
 package main;
 
-import main.pageObjectModel.Steps.*;
+import main.pageObject.steps.*;
 
 public class BrowserManager extends BrowserManagerBase {
 

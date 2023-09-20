@@ -1,9 +1,9 @@
-package main.pageObjectModel.Steps;
+package main.pageObject.steps;
 
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selenide.$;
-import static main.pageObjectModel.Pages.CreateAccountPage.*;
+import static main.pageObject.pages.CreateAccountPage.*;
 
 public class CreateAccountSteps {
 
